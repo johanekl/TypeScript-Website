@@ -227,7 +227,7 @@ Here is an example for how to specify the [`paths`](/tsconfig#paths) property fo
 ```json tsconfig
 {
   "compilerOptions": {
-    "baseUrl": ".", // This must be specified if "paths" is.
+    "baseUrl": ".",
     "paths": {
       "jquery": ["node_modules/jquery/dist/jquery"] // This mapping is relative to "baseUrl"
     }
